@@ -15,7 +15,7 @@ export default function Home() {
     }))
   );
 
-  const handleColorChange = (index, column, color) => {
+  const handleColorChange = (index: number, column: string, color: string) => {
     setTextColors((prevColors) => {
       const newColors = [...prevColors];
       newColors[index] = { ...newColors[index], [column]: color };
