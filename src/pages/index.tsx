@@ -5,6 +5,8 @@ export default function Home() {
     { name: "Mummy", lunch: "chicken curry", afternoon: "Mummy" },
     { name: "Daddy", lunch: "jacket potato", afternoon: "Daddy" },
     { name: "Max", lunch: "tomato pasta", afternoon: "Max" },
+    { name: "Lucifur", lunch: "Chicken", afternoon: "Lucifur" },
+    { name: "Clawed", lunch: "Beef", afternoon: "Clawed" },
   ];
 
   const [textColors, setTextColors] = useState(
