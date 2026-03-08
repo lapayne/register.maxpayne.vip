@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "source": ".",
+    "public": "out",
     "site": "register-maxpayne-vip",
     "ignore": [
       "firebase.json",
